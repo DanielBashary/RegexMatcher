@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Proper Name Test",
+      "setup": "",
+      "run": "gradle test --tests RegExMatcherTest.isProperName",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Integer Test",
+      "setup": "",
+      "run": "gradle test --tests RegExMatcherTest.isInteger",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Ancestor Test",
+      "setup": "",
+      "run": "gradle test --tests RegExMatcherTest.isAncestor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Palindrome Test",
+      "setup": "",
+      "run": "gradle test --tests RegExMatcherTest.isPalindrome",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
