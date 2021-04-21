@@ -20,12 +20,4 @@ public class Scraper {
         while (m.find()) { email.add(m.group(2)); }
         return email;
     }
-
-    public static void main(String[] args) throws IOException {
-        Scraper n = new Scraper();
-        ArrayList<String> a = (ArrayList<String>) n.extractEmails("https://lcm.touro.edu/about-us/contact-us/");
-        for (String s : a) {
-            System.out.println(s);
-        }
-    }
 }
